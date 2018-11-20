@@ -5,8 +5,11 @@
 This is a Keras implementation of a Convolutional Neural Network (CNN) for digit classification using the MNIST dataset.
 
 The dataset is composed of 
+
 	- 54,000 training samples
+	
 	- 10,000 testing samples
+	
 	- 6,000 validation samples
 
 Using TensorFlow as the backend, Keras automatically runs the computations on as many cores as available.
@@ -31,8 +34,10 @@ _________________________________________________________________
 _________________________________________________________________
 ## Results
 
-Total time: 6m 49s 
+Total time: 6m 49s
+
 Validation Accuracy: 0.9807
+
 Test Accuracy: 0.9799
 
 
