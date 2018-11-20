@@ -26,19 +26,19 @@ After the CNN, a flatten layer is used to give the input to a neural network lay
 _________________________________________________________________
 
 ## Hyperparameters
-- Batch size: 100
-- Epochs: 10
+- Batch size: 1
+- Epochs: 5
 - Loss: Categorical Crossentropy
 - Stochastic Gradient Descent
 
 _________________________________________________________________
 ## Results
 
-Total time: 6m 49s
+Total time: 58m 32s
 
-Validation Accuracy: 0.9807
+Validation Accuracy: 0.9860
 
-Test Accuracy: 0.9799
+Test Accuracy: 0.9875
 
 
 

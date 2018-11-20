@@ -48,7 +48,7 @@ if __name__ == "__main__":
 
     # Fit data for training set
     print('fitting')
-    hist = model.fit(x_train, y_train, batch_size=32, epochs=10,
+    hist = model.fit(x_train, y_train, batch_size=1, epochs=5,
           validation_data=(x_valid, y_valid), 
           verbose=1, shuffle=True)
 
